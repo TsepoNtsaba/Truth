@@ -87,38 +87,17 @@
 					<input type="password" name="pwd" />
 					<input type="submit" id="submit" value="Login" name="submit"/>
 				</form></li>-->
-			<li><fb:login-button show-faces="true" width="200" max-rows="1"></fb:login-button></li>
 		</ul>
 		
-			
-		<?php 
-			if(isset($response))
-			{
-				echo "<h4 class='alert'>" . $response. "</h4>";
-			}
-		?>
-		
 		</div>
 		
 		</div>
+		
 		<iframe src="https://www.facebook.com/plugins/like.php?href=YOUR_URL"
 			scrolling="no" frameborder="0"
 			style="border:none; width:450px; height:80px"></iframe>
-		<iframe name="content" src="Home.php" height="700" width="1200" style="align:center">
-		
+		<iframe name="content" src="index.php" height="700" width="1200" style="align:center">
 		<div id="footer" style="height:50px;clear:both;text-align:center;"> Copyright © Truth 2013</div>
-			
-		<?php
-			session_start();
-			require_once 'classes/Membership.php';
-			$membership = new Memebership();
-			
-			if($_POST && !empty($_POST['username']) && !empty($_POST['pwd']))
-			{
-				$response = $membership->validate_user($_POST['username'],$_POST['pwd']);
-				
-			}
-		?>
 		
 	<fb:login-button show-faces="true" width="200" max-rows="1"></fb:login-button>
 	</body>
