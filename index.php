@@ -11,7 +11,7 @@
 			<script>
 			  window.fbAsyncInit = function() {
 			  FB.init({
-			    appId      : 'YOUR_APP_ID', // App ID
+			    appId      : '161773847335673', // App ID
 			    channelUrl : '//WWW.YOUR_DOMAIN.COM/channel.html', // Channel File
 			    status     : true, // check login status
 			    cookie     : true, // enable cookies to allow the server to access the session
@@ -76,7 +76,6 @@
 			  /docs/reference/plugins/login/ -->
 
 			<fb:login-button show-faces="true" width="200" max-rows="1"></fb:login-button>
-		</div>
 		
 		<!-- menu bar -->
 		<div id="container" style="width:1200px">
