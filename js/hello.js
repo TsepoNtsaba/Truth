@@ -1,4 +1,4 @@
-$('loginButton').click(function()
+$('.loginButton').click(function()
 {
 	alert("button has been clicked");
 });
