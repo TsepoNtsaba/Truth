@@ -80,14 +80,14 @@
 			<input type="text" name="q" size="31" /></form></li>
 			<li><a href="html/help.html" target="content">Help</a></li>
 			<li><a href="html/about.html" target="content">About us</a></li>
-			<li><form method="post" action="">
+			<!--<li><form method="post" action="">
 					<label for="name">Username</label>
 					<input type="text" name="username"/>
 					<label for="pwd">Password</label>
 					<input type="password" name="pwd" />
 					<input type="submit" id="submit" value="Login" name="submit"/>
-				</form></li>
-			<!--<li><fb:login-button show-faces="true" width="200" max-rows="1"></fb:login-button></li>-->
+				</form></li>-->
+			<li><fb:login-button show-faces="true" width="200" max-rows="1"></fb:login-button></li>
 		</ul>
 		
 			
