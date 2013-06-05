@@ -14,7 +14,7 @@
 		  window.fbAsyncInit = function() {
 		    FB.init({
 		      appId      : '161773847335673', // App ID
-		      channelUrl : '//WWW.YOUR_DOMAIN.COM/channel.html', // Channel File
+		      channelUrl : 'https://thetruth.herokuapp.com/', // Channel File
 		      status     : true, // check login status
 		      cookie     : true, // enable cookies to allow the server to access the session
 		      xfbml      : true  // parse XFBML
@@ -120,6 +120,6 @@
 			}
 		?>
 		
-
+	<fb:login-button show-faces="true" width="200" max-rows="1"></fb:login-button>
 	</body>
 </html>
