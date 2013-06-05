@@ -249,7 +249,7 @@ $app_name = idx($app_info, 'name', '');
     </header>
 
     <section id="get-started">
-      <p>Welcome to your Facebook app, running on <span>heroku</span>!</p>
+      <p>Welcome to your Facebook app, running on <span>heroku and its being a bitch</span>!</p>
       <a href="https://devcenter.heroku.com/articles/facebook" target="_top" class="button">Learn How to Edit This App</a>
     </section>
 
@@ -328,7 +328,7 @@ $app_name = idx($app_info, 'name', '');
       </div>
 
       <div class="list">
-        <h3>Friends using this app</h3>
+        <h3>Friends using this app are awesome</h3>
         <ul class="friends">
           <?php
             foreach ($app_using_friends as $auf) {
