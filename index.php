@@ -7,6 +7,8 @@
 	
 	<body  background="images/vintage.jpg" style="background-attachment:fixed">
 		<div id="fb-root"></div>
+		<script src="//connect.facebook.net/en_US/all.js"></script>
+			 <script src="hello.js"></script>
 			<script>
 			  window.fbAsyncInit = function() {
 			  FB.init({
@@ -72,8 +74,6 @@
 			    });
 			  }
 			</script>
-			 <script src="//connect.facebook.net/en_US/all.js"></script>
-			 <script src="js/hello.js"></script>
 			<!--
 			  Below we include the Login Button social plugin. This button uses the JavaScript SDK to
 			  present a graphical Login button that triggers the FB.login() function when clicked.
