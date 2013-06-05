@@ -45,10 +45,8 @@
 			background-image: url();
 			background-repeat: no-repeat;
 			background-position: right;
-			padding-right: 32px;
-			padding-left: 32px;
 			display: block;
-			line-height: 80px;
+			line-height: 75px;
 			text-decoration: none;
 			font-family: Georgia, "Times New Roman", Times, serif;
 			font-size: 14px;
