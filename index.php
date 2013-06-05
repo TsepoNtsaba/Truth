@@ -71,7 +71,7 @@
 		<div id="header">
 		
 		<ul>
-			<li><b><a href="index.php" target="content">Truth</a></b></li>
+			<li><b><a href="Home.php" target="content">Truth</a></b></li>
 			<li><a href="closet.php" target="content">Closet</a></li>
 			<li><a href="Open_up.php" target="content">Open up</a> </li>
 			<li><form id="cse-search-box" action="http://google.com/cse">
@@ -104,7 +104,7 @@
 		<iframe src="https://www.facebook.com/plugins/like.php?href=YOUR_URL"
 			scrolling="no" frameborder="0"
 			style="border:none; width:450px; height:80px"></iframe>
-		<iframe name="content" src="index.php" height="700" width="1200" style="align:center">
+		<iframe name="content" src="Home.php" height="700" width="1200" style="align:center">
 		
 		<div id="footer" style="height:50px;clear:both;text-align:center;"> Copyright © Truth 2013</div>
 			
