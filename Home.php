@@ -92,7 +92,6 @@
 			  Learn more about options for the login button plugin:
 			  /docs/reference/plugins/login/ -->
 
-			<button class="loginButton">Login</button>
 		
 
 </body>
