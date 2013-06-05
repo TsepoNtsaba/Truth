@@ -55,10 +55,11 @@
 			   ref.parentNode.insertBefore(js, ref);
 			  }(document));
 			  
-			  facebook login()
-			  {
-				FB.login
-			  }
+			   FB.login(function(response) {
+				// stuff you want to happen after login goes here
+				console.log(response);
+ 
+				}); //FB.login
 
 			  // Here we run a very simple test of the Graph API after login is successful. 
 			  // This testAPI() function is only called in those cases. 
