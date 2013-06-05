@@ -2,7 +2,6 @@
 <html>
 	<head>
 		<title>Truth</title>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/style.css" />	
 	</head>
 	
@@ -35,7 +34,7 @@
 		</div>
 		
 		</div>
-		<button class="loginButton">Login</button>
+
 		<iframe name="content" src="Home.php" height="700" width="1200" style="align:center">
 		<div id="footer" style="height:50px;clear:both;text-align:center;"> Copyright © Truth 2013</div>
 		

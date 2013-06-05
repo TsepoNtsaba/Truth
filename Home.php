@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>Truth</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <style type="text/css">
 #left-div
 {
@@ -85,12 +86,15 @@
 			  }
 			</script>
 			 <script src="//connect.facebook.net/en_US/all.js"></script>
+			 <script src="js/hello.js"></script>
 			<!--
 			  Below we include the Login Button social plugin. This button uses the JavaScript SDK to
 			  present a graphical Login button that triggers the FB.login() function when clicked.
 
 			  Learn more about options for the login button plugin:
 			  /docs/reference/plugins/login/ -->
+			  
+			  <button class="loginButton">Login</button>
 
 		
 
