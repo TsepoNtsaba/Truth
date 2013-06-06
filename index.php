@@ -3,6 +3,12 @@
 	<head>
 		<title>Truth</title>
 		<style type="text/css">
+		body 
+		{
+		   margin:0;
+		   padding:0;
+		   height:100%;
+		}
 		ul 
 		{
 			list-style-type: none;
@@ -64,13 +70,22 @@
 			margin: 0 auto;
 			display:block;
 		}
+		#container 
+		{
+		   min-height:100%;
+		   position:relative;
+		}
+		#body 
+		{
+		   padding:10px;
+		   padding-bottom:60px;   /* Height of the footer */
+		}
 		#footer 
 		{
 		   position:absolute;
 		   bottom:0;
 		   width:100%;
 		   height:60px;   /* Height of the footer */
-		   background:#6cf;
 		}
 	</style>
 		
@@ -167,6 +182,8 @@
 		</ul>
 		
 		</div>
+		
+		 <div id="body"></div>
 		
 		<div
 			  class="fb-login-button"
