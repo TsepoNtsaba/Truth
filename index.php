@@ -64,6 +64,14 @@
 			margin: 0 auto;
 			display:block;
 		}
+		#footer 
+		{
+		   position:absolute;
+		   bottom:0;
+		   width:100%;
+		   height:60px;   /* Height of the footer */
+		   background:#6cf;
+		}
 	</style>
 		
 	</head>
@@ -160,10 +168,18 @@
 		
 		</div>
 		
+		<div
+			  class="fb-login-button"
+			  data-show-faces="true"
+			  data-width="200"
+			  data-max-rows="1"
+			  id="footer"
+			  data-scope="publish_actions">
+		</div>
+		<div id="footer" style="height:700px;clear:both;text-align:center;"> Copyright © Truth 2013</div>
+		
 		</div>
 
-		<div class="fb-like" data-send="true" data-width="450" data-show-faces="true" id="footer"></div>
-		<div id="footer" style="height:700px;clear:both;text-align:center;"> Copyright © Truth 2013</div>
 		
 	
 	</body>
