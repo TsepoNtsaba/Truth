@@ -88,7 +88,6 @@
 		
 		<ul>
 			<li><b><a href="Home.php" target="content">Truth</a></b></li>
-			<li><button class="loginButton">Login</button><li>
 			<li><b><a href="https://www.facebook.com/dialog/oauth/?
 						client_id=161773847335673
 						&redirect_uri=http://thetruth.herokuapp.com/
@@ -100,9 +99,8 @@
 		
 		</div>
 
-		<div class="fb-login-button" style="height:400px"></div>
 		<div class="fb-like" data-send="true" data-width="450" data-show-faces="true" style="height:450px"></div>
-		<div id="footer" style="height:500px;clear:both;text-align:center;"> Copyright © Truth 2013</div>
+		<div id="footer" style="height:700px;clear:both;text-align:center;"> Copyright © Truth 2013</div>
 		
 	
 	</body>
