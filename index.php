@@ -99,8 +99,8 @@
 		
 		</div>
 
-		<div class="fb-like" data-send="true" data-width="450" data-show-faces="true" style="height:700px;clear:both;text-align:center;"></div>
-		<div id="footer" > Copyright © Truth 2013</div>
+		<div class="fb-like" data-send="true" data-width="450" data-show-faces="true" id="footer"></div>
+		<div id="footer" style="height:700px;clear:both;text-align:center;"> Copyright © Truth 2013</div>
 		
 	
 	</body>
