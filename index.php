@@ -89,13 +89,19 @@
 		<ul>
 			<li><b><a href="Home.php" target="content">Truth</a></b></li>
 			<li><button class="loginButton">Login</button><li>
+			<li><b><a href="https://www.facebook.com/dialog/oauth/?
+						client_id=161773847335673
+						&redirect_uri=http://thetruth.herokuapp.com/
+						&state=YOUR_STATE_VALUE
+						&scope=email, read_friendlists, read_mailbox, read_stream, xmpp_login, manage_notifications, publish_actions, user_location, friends_location, manage_pages">Login</a></b></li>
 		</ul>
 		
 		</div>
 		
 		</div>
 
-		
+		<div class="fb-login-button"></div>
+		<div class="fb-like" data-send="true" data-width="450" data-show-faces="true"></div>
 		<div id="footer" style="height:50px;clear:both;text-align:center;"> Copyright © Truth 2013</div>
 		
 	
