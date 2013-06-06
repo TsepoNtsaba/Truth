@@ -100,9 +100,9 @@
 		
 		</div>
 
-		<div class="fb-login-button"></div>
-		<div class="fb-like" data-send="true" data-width="450" data-show-faces="true"></div>
-		<div id="footer" style="height:50px;clear:both;text-align:center;"> Copyright © Truth 2013</div>
+		<div class="fb-login-button" style="height:400px"></div>
+		<div class="fb-like" data-send="true" data-width="450" data-show-faces="true" style="height:450px"></div>
+		<div id="footer" style="height:500px;clear:both;text-align:center;"> Copyright © Truth 2013</div>
 		
 	
 	</body>
