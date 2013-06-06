@@ -82,12 +82,12 @@
 			  /docs/reference/plugins/login/ -->
 			  
 		<!-- menu bar -->
-		<div id="container" style="width:1200px">
+		<div id="container" style="width:1200px;height:100px;margin: 0 auto;top:0;position:fixed;position:absolute;">
 		
 		<div id="header">
 		
 		<ul>
-			<li><b><a href="Home.php" target="content">Truth</a></b></li>
+			<li><b><a href="index.php" target="content">Truth</a></b></li>
 			<li><b><a href="https://www.facebook.com/dialog/oauth/?
 						client_id=161773847335673
 						&redirect_uri=http://thetruth.herokuapp.com/
@@ -99,8 +99,8 @@
 		
 		</div>
 
-		<div class="fb-like" data-send="true" data-width="450" data-show-faces="true" style="height:450px"></div>
-		<div id="footer" style="height:700px;clear:both;text-align:center;"> Copyright © Truth 2013</div>
+		<div class="fb-like" data-send="true" data-width="450" data-show-faces="true" style="height:700px;clear:both;text-align:center;"></div>
+		<div id="footer" > Copyright © Truth 2013</div>
 		
 	
 	</body>
