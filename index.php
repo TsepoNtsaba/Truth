@@ -193,7 +193,7 @@
 			  id="footer"
 			  data-scope="publish_actions">
 		</div>
-		<div id="footer" style="height:700px;clear:both;text-align:center;"> Copyright © Truth 2013</div>
+		<div id="footer"> Copyright © Truth 2013</div>
 		
 		</div>
 
