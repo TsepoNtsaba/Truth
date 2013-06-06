@@ -2,7 +2,70 @@
 <html>
 	<head>
 		<title>Truth</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css" />	
+		<script type="text/css">
+		ul 
+		{
+			list-style-type: none;
+			background-color: #100000;
+			height: 50px;
+			width: 1500px;
+			margin: 0 auto;
+			display:block;
+		}
+		li 
+		{
+			float: left;
+		}
+		ul a 
+		{
+			background-image: url();
+			background-repeat: no-repeat;
+			background-position: right;
+			padding-right: 32px;
+			padding-left: 32px;
+			display: block;
+			line-height: 80px;
+			text-decoration: none;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 14px;
+			color: #CC6600;
+		}
+		ul a:hover 
+		{
+			color: #FFF;
+		}
+		ul form
+		{
+			background-image: url();
+			background-repeat: no-repeat;
+			display: block;
+			line-height: 75px;
+			text-decoration: none;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 14px;
+			color: #CC6600;
+		}
+		ul button
+		{
+			background-image: url();
+			background-repeat: no-repeat;
+			background-position: right;
+			display: block;
+			line-height: 30px;
+			text-decoration: none;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 14px;
+			color: #CC6600;
+		}
+		iframe 
+		{
+			width: 700px;
+			height: 1200px;
+			margin: 0 auto;
+			display:block;
+		}
+	</script>
+		
 	</head>
 	
 	<body  background="images/vintage.jpg" style="background-attachment:fixed">
