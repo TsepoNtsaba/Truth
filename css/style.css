@@ -59,12 +59,4 @@
 			margin: 0 auto;
 			display:block;
 		}
-		div
-		{
-			height: 100px;
-			margin: 0 auto;
-			display:block;
-			position:absolute;
-			top:0;
-			position:fixed;
-		}
+		
