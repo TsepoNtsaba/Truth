@@ -187,7 +187,7 @@
 		
 		<div
 			  class="fb-login-button"
-			  data-show-faces="false"
+			  data-show-faces="true"
 			  data-width="200"
 			  data-max-rows="1"
 			  id="footer"
