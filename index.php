@@ -61,7 +61,7 @@
 			text-decoration: none;
 			font-family: Georgia, "Times New Roman", Times, serif;
 			font-size: 14px;
-			color: #CC6600;
+			color: #CCh6600;
 		}
 		iframe 
 		{
@@ -187,7 +187,7 @@
 		
 		<div
 			  class="fb-login-button"
-			  data-show-faces="true"
+			  data-show-faces="false"
 			  data-width="200"
 			  data-max-rows="1"
 			  id="footer"
